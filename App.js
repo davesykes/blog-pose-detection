@@ -93,7 +93,7 @@ function App() {
   }, []);
 
   const devices = useCameraDevices();
-  const device = devices.back;
+  const device = devices.front;
 
   useEffect(() => {
     const checkPermissions = async () => {
